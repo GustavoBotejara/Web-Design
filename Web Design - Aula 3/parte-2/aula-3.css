@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+
+h1 {
+    color: lightgreen;
+    font-family: 'Handjet', cursive;
+    font-size: 50px;
+}
+
+.texto {
+    margin: 100px;
+    border: 5px solid;
+    border-color: blue;
+    text-align: center;
+
+    vertical-align: middle;
+    line-height: 150px;
+
+    background-color: blueviolet;
+    color:yellow;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+}
