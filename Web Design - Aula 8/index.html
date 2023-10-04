@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Design - Aula 8</title>
+</head>
+
+<body>
+    <form method="post" action="https://www.w3schools.com/action_page.php">
+
+        <label for="name">Nome Completo</label><br>
+        <input type="text" id="name" name="fullName" placeholder="Name" autocomplete="off"><br><br>
+
+        <label>Choose a programing language</label><br>
+        <input type="radio" name="programing-language" id="Java" value="Java">
+        <label for="Java">Java</label><br>
+        <input type="radio" name="programing-language" id="C#" value="C#">
+        <label for="C#">C#</label><br>
+        <input type="radio" name="programing-language" id="C++" value="C++">
+        <label for="C++">C++</label><br>
+        <input type="radio" name="programing-language" id="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br><br>
+
+        <label>Select the language(s) you speak</label><br>
+        <input type="checkbox" name="idioma1" id="portuguese" value="portuguese">
+        <label for="portuguese">Portuguese</label><br>
+        <input type="checkbox" name="idioma2" id="english" value="english">
+        <label for="english">English</label><br>
+        <input type="checkbox" name="idioma3" id="french" value="french">
+        <label for="french">French</label><br><br>
+
+        <label>Test button</label><br>
+        <input type="button" value="Click me" onclick="alert('Clicked')"><br><br>
+
+        <label>Choose your City</label><br>
+        <select name="city" id="city">
+            <option value="Sao Paulo">Sao Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Belo Horizonte">Belo Horizonte</option>
+            <option value="Vitoria">Vitoria</option>
+            <option value="Salvado">Salvador</option>
+            <option value="Palmas">Palmas</option>
+        </select><br><br>
+
+        <label>Description</label><br>
+        <textarea name="description" cols="50" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit doloribus at dolores, omnis praesentium beatae temporibus harum in sapiente corporis qui architecto fuga facilis velit voluptas assumenda, doloremque optio!
+        </textarea><br><br>
+
+        <fieldset>
+            <legend>Extra Inputs</legend>
+            <label for="age">Age:</label><br>
+            <input type="text" name="age" id="age"><br><br>
+            <label for="adress">Adress:</label><br>
+            <input type="text" name="adress" id="adress"><br><br>
+        </fieldset><br>
+
+        <label>Select your State</label><br>
+        <input list="states" name="states">
+        <datalist id="states">
+            <option value="Sao Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Minas Gerais">
+            <option value="Espirito Santo">
+            <option value="Bahia">
+            <option value="Tocantins">
+        </datalist><br>
+
+        <br><input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
