@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form method="post" action="https://www.w3schools.com/action_page.php">
+
+    <label for="nome">Nome Completo</label><br>
+    <input type="text" id="nome" name="nomeCompleto" placeholder="Nome" autocomplete="off"><br><br>
+
+    <label for="endereco">Endereço</label><br>
+    <input type="text" id="endereco" name="endereco" placeholder="Endereco" autocomplete="off"><br><br>
+
+    <label for="complemento">Complemento</label><br>
+    <input type="text" id="complemento" name="complemento" placeholder="Complemento" autocomplete="off"><br><br>
+
+    <label>Cidade</label><br>
+    <input list="cidades" name="cidades">
+    <datalist id="cidades">
+      <option value="Sao Paulo">
+      <option value="Rio de Janeiro">
+      <option value="Belo Horizonte">
+      <option value="Vitoria">
+      <option value="Salvador">
+      <option value="Palmas">
+    </datalist><br><br>
+
+    <label>Estado</label><br>
+    <select name="estado" id="estado">
+      <option value="Sao Paulo">Sao Paulo</option>
+      <option value="Rio de Janeiro">Rio de Janeiro</option>
+      <option value="Minas Gerais">Minas Gerais</option>
+      <option value="Espirito Santo">Espirito Santo</option>
+      <option value="Bahia">Bahia</option>
+      <option value="Tocantins">Tocantins</option>
+    </select><br><br>
+
+    <label for="CEP">CEP</label><br>
+    <input type="text" id="CEP" name="CEP" placeholder="CEP" autocomplete="off"><br><br>
+
+    <label>Gênero: </label><br>
+    <input type="radio" name="genero" id="Masculino" value="Masculino">
+    <label for="Masculino">Masculino</label><br>
+    <input type="radio" name="genero" id="Feminino" value="Feminino">
+    <label for="Feminino">Feminino</label><br>
+    <input type="radio" name="genero" id="Outro" value="Outro">
+    <label for="Outro">Outro</label><br><br>
+
+    <label>Curso(s):</label><br>
+    <input type="checkbox" name="curso1" id="engComputacao" value="engComputacao">
+    <label for="engComputacao">Eng. Computação</label><br>
+    <input type="checkbox" name="curso2" id="ADS" value="ADS">
+    <label for="ADS">ADS</label><br>
+    <input type="checkbox" name="curso3" id="jogos" value="jogos">
+    <label for="jogos">Jogos</label><br><br>
+
+    <br><input type="submit" value="Enviar">
+  </form>
+</body>
+
+</html>
