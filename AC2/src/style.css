@@ -1,11 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 nav {
-    justify-content: center;
-    text-align: center;
-    font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.home_main {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.prod1,
+.prod2,
+.prod3,
+.prod4 {
+  width: 200px;
 }
