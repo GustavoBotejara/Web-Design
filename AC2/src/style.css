@@ -16,6 +16,13 @@ nav {
   padding-top: 20px;
 }
 
+.text_footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  vertical-align: bottom;
+}
+
 .prod1,
 .prod2,
 .prod3,
