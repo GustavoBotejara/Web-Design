@@ -1,7 +1,7 @@
 let produtos = document.querySelectorAll('#produto');
 
 for (let produto of produtos) {
-    produto.addEventListener('click', () => onClickProduto(produto));
+    produto.querySelector("#botao").addEventListener('click', () => onClickProduto(produto));
 }
 
 function onClickProduto(produto) {
