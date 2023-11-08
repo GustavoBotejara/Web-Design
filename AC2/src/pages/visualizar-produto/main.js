@@ -12,8 +12,19 @@ document.querySelector('#precoProduto').innerText = preco;
 document.querySelector('#produtoModal').innerText = produto;
 document.querySelector('#precoModal').innerText = preco;
 
-document.querySelector('#btnConfirmarCompra').addEventListener('click', () => confirmarCompra());
+document.querySelector('#btnConfirmarCompra').addEventListener('click', async () => {
+    showToast();
+    setTimeout(() => confirmarCompra(), 800);
+});
 
 function confirmarCompra() {
     window.location.href = '../../index.html';
+}
+
+function showToast() {
+    var showToast = document.getElementById("toast");
+    showToast.className = "show";
+    setTimeout(function() { 
+        showToast.className = showToast.className.replace("show", ""); 
+    }, 3000);
 }
